@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    default: local
+  datasource:
+    url: jdbc:mariadb://localhost:3306/mydb
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
