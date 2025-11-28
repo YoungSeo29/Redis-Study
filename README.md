@@ -4,10 +4,12 @@ redis 캐시 서버 사용하지 않을 때
 
 
 
+
+
 redis 캐시 서버 사용 후
 
 <img width="403" height="289" alt="image" src="https://github.com/user-attachments/assets/76cc13a6-7522-45d1-9e2f-6b4c5551ad9c" />
 
 
 
-374ms -> 7ms로 매우 성능이 향상됨
+370ms -> 7ms로 매우 성능이 향상됨
