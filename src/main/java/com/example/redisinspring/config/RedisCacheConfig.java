@@ -30,7 +30,7 @@ public class RedisCacheConfig {
                                 new Jackson2JsonRedisSerializer<Object>(Object.class)
                         )
                 )
-                // 데이터의 만료기간(TTL) 설정
+                // 데이터의 만료기간(TTL) 설정 - 1분마다 데이터 갱신됐으면 좋겠다!
                 .entryTtl(Duration.ofMinutes(1L));
 
         return RedisCacheManager
