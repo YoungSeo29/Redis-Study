@@ -25,5 +25,5 @@ spring:
       on-profile: prod
   datasource:
     url: jdbc:mysql://redis-db.c7e60c8k2azt.ap-northeast-2.rds.amazonaws.com:3306/redis-db
-    username: admin
-    password: kys81195503!
+    username: ${PROD_DB_USERNAME}
+    password: ${PROD_DB_PASSWORD}
