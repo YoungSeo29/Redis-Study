@@ -27,3 +27,4 @@ spring:
     url: jdbc:mysql://redis-db.c7e60c8k2azt.ap-northeast-2.rds.amazonaws.com:3306/redis-db
     username: ${PROD_DB_USERNAME}
     password: ${PROD_DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
